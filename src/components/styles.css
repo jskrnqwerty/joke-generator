@@ -1,0 +1,15 @@
+.heading {
+
+  margin-top: 15vh;
+}
+
+.joke-generator {
+  margin-top: 10vh;
+  padding: 0 20px 0 20px;
+  
+}
+
+.joke-text {
+  /* padding */
+  font-size: 2rem;
+}
