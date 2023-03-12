@@ -4,7 +4,6 @@ import { ApiData } from "../types";
 export const ApiContext = createContext({} as ApiContextType);
 
 type ApiContextProviderPropsType = {
-  // sd
   children: React.ReactNode;
 };
 

@@ -1,5 +1,4 @@
 import "./styles.css";
-// import JokeGenerator from "./JokeGenerator";
 import JokeApiContextProvider from "./context/ApiContextProvider";
 import JokeDisplay from "./JokeDisplay";
 import JokeButton from "./JokeButton";
