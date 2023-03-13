@@ -1,5 +1,5 @@
 .app {
-  background-color: rgba(255, 249, 231, 0.753);
+  background-color: rgba(255, 249, 231, 0.918);
   max-width: 550px;
   box-shadow: 1px 1px 50px 10px rgba(0, 0, 0, 0.384);
   padding: 12vh 0px 0px 0px;
@@ -20,11 +20,12 @@
 }
 
 .joke-punchline {
-  color: rgb(219, 219, 219);
+  color: rgba(0, 0, 0, 0.096);
 }
 .joke-punchline:hover {
   color: black;
   transition: all 400ms;
+  cursor: default
 }
 
 .joke-button-div {
@@ -57,6 +58,6 @@
 }
 
 .joke-button:hover {
-  background-color: rgba(34, 34, 34, 0.308);
+  background-color: rgba(255, 249, 231, 0.753);
 }
 

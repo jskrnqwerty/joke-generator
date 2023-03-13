@@ -1,15 +1,14 @@
 import "./components/styles.css";
 import Home from "./components/Home";
+import JokeApiContextProvider from "./components/context/JokeApiContextProvider";
 
 function App() {
   return (
-    <div
-      className="app"
-      max-width="50px"
-      min-height="800px"
-    >
-      <Home />
-    </div>
+    <JokeApiContextProvider>
+      <div className="app">
+        <Home />
+      </div>
+    </JokeApiContextProvider>
   );
 }
 
