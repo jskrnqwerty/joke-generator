@@ -1,15 +1,14 @@
 import { useContext } from "react";
 import { JokeApiContext } from "./context/JokeApiContextProvider";
 
-const JokeDisplay = () => {
+const JokeSteup = () => {
   const { jokeApiData } = useContext(JokeApiContext);
 
   return (
     <>
-      <p className="joke-text">{jokeApiData.setup}</p>
-      <p className="joke-text">{jokeApiData.punchline}</p>
+      <p className="joke-line joke-setup">{jokeApiData.setup}</p>
     </>
   );
 };
 
-export default JokeDisplay;
+export default JokeSteup;

@@ -1,16 +1,16 @@
 import { useContext } from "react";
-import { ApiContext } from "./context/ApiContextProvider";
+import { JokeApiContext } from "./context/JokeApiContextProvider";
 
 const JokeButton = () => {
-  const { count, setCount } = useContext(ApiContext);
+  const { count, setCount } = useContext(JokeApiContext);
 
   return (
     <div>
       <button
-        className="button"
+        className="joke-button"
         onClick={() => setCount(count + 1)}
       >
-        Another joke
+        LOL
       </button>
     </div>
   );

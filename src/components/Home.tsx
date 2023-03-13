@@ -1,17 +1,21 @@
 import "./styles.css";
-import JokeApiContextProvider from "./context/ApiContextProvider";
-import JokeDisplay from "./JokeDisplay";
+import JokeApiContextProvider from "./context/JokeApiContextProvider";
 import JokeButton from "./JokeButton";
+import JokeSteup from "./JokeSetup";
+import JokePunchline from "./JokePunchline";
 
 const Home = () => {
   return (
     <JokeApiContextProvider>
-      <h1 className="heading">Joke Generator</h1>
-      <div className="joke-display">
-        <JokeDisplay />
-      </div>
-      <div className="joke-button">
-        <JokeButton />
+      <div className="joke-card">
+        <h1 className="heading-div">Joke Generator</h1>
+        <div className="joke-text">
+          <JokeSteup />
+          <JokePunchline />
+        </div>
+        <div className="joke-button-div">
+          <JokeButton />
+        </div>
       </div>
     </JokeApiContextProvider>
   );
